@@ -1,0 +1,80 @@
+body{
+    background-color: #FCE8F1;
+} 
+
+.main{
+    width:50%;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: Georgia;
+    color:#7E1B4E;
+}
+
+.middle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.setMid{
+  border: none;
+  width: 500px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bottomMiddle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bottomMiddleOne{
+    margin: 10px;
+    border: groove;
+    border-width: 10px;
+    border-color: #362828;
+}
+.bottomMiddleTwo{
+    margin: 10px;
+    border: groove;
+    border-width: 10px;
+    border-color: #aa9208;
+}
+
+.buttonMiddle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.begPic{
+    width: 500px;
+    margin: 10px;
+    border: double;
+    border-width: 10px;
+    border-color: #af0c0c;
+}
+.setup{
+    font-family: Georgia;
+    color:#7E1B4E;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.imageOne{
+    width:45%;
+    
+}
+
+.imageTwo{
+    width:300px;
+}
+
+button{
+    font-family: Georgia;
+}
