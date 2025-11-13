@@ -1,56 +1,66 @@
 body{
     background-color: #FCE8F1;
-} 
+}
+ 
+.sizer{
+    width:800px;
+}
 
 .main{
-    width:50%;
+    width:90%;
     margin: 0 auto;
 }
 
 .title{
     font-family: Georgia;
     color:#7E1B4E;
+    width:100%;
 }
 
-.middle{
+.all{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  height:800px;
 }
 
-.setMid{
-  border: none;
-  width: 500px;
-  padding: 10px;
-  display: flex;
+.begin{
+  display: inline-block;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:flex-start;
+  width:30%;
 }
 
-.bottomMiddle{
+.frame{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.bottomMiddleOne{
-    margin: 10px;
-    border: groove;
-    border-width: 10px;
-    border-color: #362828;
-}
-.bottomMiddleTwo{
-    margin: 10px;
-    border: groove;
-    border-width: 10px;
-    border-color: #aa9208;
+.setMid{
+    display: block;
+    margin-top: 20%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width:50%;
+    line-height: 1.8;
 }
 
-.buttonMiddle{
-  display: flex;
+.bottomMiddle{
+   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+
+.buttonOptions{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5%;
+}
+
 
 .begPic{
     width: 500px;
@@ -68,13 +78,52 @@ body{
 
 .imageOne{
     width:45%;
-    
+    margin: 10px;
+    border: groove;
+    border-width: 10px;
+    border-color: #376979;
 }
 
 .imageTwo{
-    width:300px;
+    width:45%;
+    margin: 10px;
+    border: groove;
+    border-width: 10px;
+    border-color: #aa9208;
 }
 
 button{
     font-family: Georgia;
+    margin: 10px;
+    
+}
+
+.optionOne{
+  background-color: #0c2164;
+  color: #C3CEF8;
+  border: double;
+  padding:1%;
+  text-align: center;
+  font-size: 15px;
+  border-radius:10px;
+
+}
+.optionOne:hover{
+  background-color: #EDEFFD;
+  color: #163fc7;
+}
+
+.optionTwo{
+  background-color: #4C490A;
+  color: #F8F4BF;
+  border: double;
+  padding:1%;
+  text-align: center;
+  font-size: 15px;
+  border-radius:10px;
+}
+
+.optionTwo:hover{
+  background-color: #CEC91C;
+  color: #323106;
 }
