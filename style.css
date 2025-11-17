@@ -127,3 +127,78 @@ button{
   background-color: #CEC91C;
   color: #323106;
 }
+
+.optionOneAA{
+  background-color: #0c2164;
+  color: #C3CEF8;
+  border: double;
+  padding:1%;
+  text-align: center;
+  font-size: 15px;
+  border-radius:10px;
+  display:none;
+}
+.optionOneAA:hover{
+  background-color: #EDEFFD;
+  color: #163fc7;
+}
+
+.optionTwoAB{
+  background-color: #4C490A;
+  color: #F8F4BF;
+  border: double;
+  padding:1%;
+  text-align: center;
+  font-size: 15px;
+  border-radius:10px;
+  display:none;
+}
+.optionTwoAB:hover{
+  background-color: #CEC91C;
+  color: #323106;
+}
+
+.optionOneBA{
+  background-color: #0c2164;
+  color: #C3CEF8;
+  border: double;
+  padding:1%;
+  text-align: center;
+  font-size: 15px;
+  border-radius:10px;
+  display:none;
+}
+.optionOneBA:hover{
+  background-color: #EDEFFD;
+  color: #163fc7;
+}
+
+.optionTwoBB{
+  background-color: #4C490A;
+  color: #F8F4BF;
+  border: double;
+  padding:1%;
+  text-align: center;
+  font-size: 15px;
+  border-radius:10px;
+  display:none;
+}
+.optionTwoBB:hover{
+  background-color: #CEC91C;
+  color: #323106;
+} 
+
+.restart{
+  background-color: #4c0a0a;
+  color: #f8bfbf;
+  border: double;
+  padding:1%;
+  text-align: center;
+  font-size: 15px;
+  border-radius:10px;
+  display:none;
+}
+.restart:hover{
+  background-color: #f8bfbf;
+  color: #4c0a0a;
+} 
