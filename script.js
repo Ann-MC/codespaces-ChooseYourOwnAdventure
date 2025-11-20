@@ -49,6 +49,7 @@ optionOne.addEventListener("click", function () {
   
   restart.style.display = "block";
 
+
   // imageOne.style.display="none";
   // imageTwo.style.display="none";
   imageOne.style.visibility = "hidden";
@@ -127,7 +128,7 @@ optionTwo.addEventListener("click", function () {
 // route BB
 
 optionTwoBB.addEventListener("mouseup", function () {
-  setup.innerHTML = "You and Prince Anderson live happily ever after…at least until the civil war began. After his brother died, leaving him the throne, Anderson started pulling away more and more, causing you to complain. In order to keep you around he proposes and so you keep your head you accept. Now your getting married, so happily ever after … i guess.";
+  setup.innerHTML = "You and Prince Anderson live happily ever after…at least until the civil war began. After his brother died, leaving him the throne, Anderson started pulling away more and more, causing you to complain and rethink the relationship. In order to keep you around, he proposes, and so you accept to keep your head. Now, you both are getting married, so happily ever after … i guess.";
   begPic.src ="images/sadMarriage.jpg";
 
   begPic.style.width="70%"

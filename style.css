@@ -23,6 +23,7 @@ body{
   display: flex;
   justify-content: space-evenly;
   width:70%;
+  height:300px;
   height:50%;
   margin:  auto;
 }
